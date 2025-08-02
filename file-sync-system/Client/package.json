@@ -1,0 +1,28 @@
+{
+  "name": "file-sync-client",
+  "version": "1.0.0",
+  "description": "Simple file sync client",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "upload": "node examples/upload-example.js",
+    "download": "node examples/download-example.js",
+    "merkle-example": "node examples/merkle-tree-example.js",
+    "test": "node test/api-test.js",
+    "quick-test": "node test/quick-test.js",
+    "test-upload": "node examples/test-upload-api.js",
+    "test-download": "node examples/test-download-api.js",
+    "test-auth": "node examples/test-auth-api.js",
+    "test-list": "node examples/test-list-api.js",
+    "test-merkle": "node examples/test-merkle-api.js",
+    "test-all": "node examples/test-all-apis.js",
+    "test-urls": "node examples/test-permanent-urls.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.3.1"
+  }
+}
